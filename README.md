@@ -2,6 +2,11 @@
 
 **Cloudflare「AI 爬虫被拦」隐形故障体检：让 AI 搜索读得到你的网站。**
 
+[![GitHub stars](https://img.shields.io/github/stars/yueliangjiejie/cloudflare-zone-guardrails-audit?style=social&label=Star)](https://github.com/yueliangjiejie/cloudflare-zone-guardrails-audit/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/yueliangjiejie?style=social&label=Follow)](https://github.com/yueliangjiejie)
+[![Agent Skill](https://img.shields.io/badge/Agent-SKILL.md-7c3aed)](https://github.com/yueliangjiejie/cloudflare-zone-guardrails-audit)
+[![License](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%C2%B7%E5%95%86%E7%94%A8%E6%8E%88%E6%9D%83-orange)](LICENSE)
+
 一个即装即用的 Agent Skill。你的网站浏览器访问一切正常，但 ChatGPT、豆包、元宝、Kimi 对你的品牌一无所知？大概率不是内容问题，是 Cloudflare 在 zone 层把 AI 爬虫拦了，而这种拦截用浏览器永远测不出来。
 
 ## 症状自查（中一条就要查）
@@ -74,6 +79,18 @@ Agent 会按 SKILL.md 的流程执行：带 AI 爬虫 UA 实测取证 → 区分
 
 ## 作者与许可
 
-月亮姐姐（谭璐璐）｜ [tanlulu.com](https://tanlulu.com) ｜ 微信 moonai6
+**月亮姐姐（谭璐璐）** ｜ [tanlulu.com](https://tanlulu.com) ｜ 微信 moonai6
 
 个人与学习用途可免费使用，须保留署名。商业用途（含付费服务、二次分发）需获得作者授权，见 [LICENSE](LICENSE)。
+
+---
+
+## ⭐ 觉得有用？
+
+如果这个 skill 帮你查出了「AI 搜不到」的真凶，欢迎三件事：
+
+1. **点个 Star**，让更多被同样问题困扰的站长能搜到它
+2. **关注 [@yueliangjiejie](https://github.com/yueliangjiejie)**，后面还会开源 GEO 诊断、站点全维度体检等一整套 skill
+3. **排查中遇到新情况？[提个 Issue](https://github.com/yueliangjiejie/cloudflare-zone-guardrails-audit/issues)**，你的坑会被回灌进版本记录，帮到下一个人
+
+> 这个 skill 出自我个人网站的 GEO 改造复盘：6 天从「AI 查无此人」到 GPTBot 抓取 +728.6%，完整过程见 [tanlulu.com](https://tanlulu.com)。
